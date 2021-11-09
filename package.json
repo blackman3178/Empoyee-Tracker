@@ -1,0 +1,26 @@
+{
+  "name": "empoyee-tracker",
+  "version": "1.0.0",
+  "description": "- this node application has the purpose of helping a user create a database of employees, add to it and modify it as such.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackman3178/Empoyee-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackman3178/Empoyee-Tracker/issues"
+  },
+  "homepage": "https://github.com/blackman3178/Empoyee-Tracker#readme",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3-rc.0"
+  }
+}
